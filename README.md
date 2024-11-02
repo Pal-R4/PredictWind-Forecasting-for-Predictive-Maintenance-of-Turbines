@@ -54,8 +54,8 @@ This ratio ranges between 0 and 1, with 1 indicating that the model’s cost equ
 The provided data is a transformed version of sensor data gathered from wind turbines. 
 It consists of:
 
-Train.csv: Used for training and tuning the models, containing 40 predictor variables and 1 target variable.\
-Test.csv: Used exclusively for evaluating the performance of the final selected model.
+**Train.csv**:Used for training and tuning the models, containing 40 predictor variables and 1 target variable.\
+**Test.csv**: Used exclusively for evaluating the performance of the final selected model.
 Our pipeline performance (Minimum_vs_Model_cost ≈ 0.799) shows that the model accurately replicates the desired results after preprocessing.
 
 # Approach and Methodology
