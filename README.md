@@ -54,16 +54,16 @@ This ratio ranges between 0 and 1, with 1 indicating that the model’s cost equ
 The provided data is a transformed version of sensor data gathered from wind turbines. 
 It consists of:
 
-Train.csv: Used for training and tuning the models, containing 40 predictor variables and 1 target variable.
+Train.csv: Used for training and tuning the models, containing 40 predictor variables and 1 target variable.\
 Test.csv: Used exclusively for evaluating the performance of the final selected model.
 Our pipeline performance (Minimum_vs_Model_cost ≈ 0.799) shows that the model accurately replicates the desired results after preprocessing.
 
 # Approach and Methodology
-Data Preparation: Cleaned and transformed the data to make it suitable for modeling.
-Model Development: Tested and evaluated around 7 different machine learning algorithms.
-Class Imbalance Handling: Addressed the imbalance in the dataset (more "no failures" than "failures").
-Model Tuning: Used cross-validation and hyperparameter optimization for improved performance.
-Pipeline Construction: Built a pipeline to streamline and productionize the final selected model.
+**Data Preparation:** Cleaned and transformed the data to make it suitable for modeling.\
+**Model Development:** Tested and evaluated around 7 different machine learning algorithms.\
+**Class Imbalance Handling:** Addressed the imbalance in the dataset (more "no failures" than "failures").\
+**Model Tuning:** Used cross-validation and hyperparameter optimization for improved performance.\
+**Pipeline Construction:** Built a pipeline to streamline and productionize the final selected model.
 
 **Final Model Selection**
 XGBoost was chosen as the final model due to its cost-effective performance and generalization capabilities. With this model, the estimated maintenance cost is around 1.26 times the minimum possible cost, while not using a predictive model could result in costs about 2.67 times the minimum. Implementing this model is expected to yield substantial cost savings.
