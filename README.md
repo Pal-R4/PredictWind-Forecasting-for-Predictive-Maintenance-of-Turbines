@@ -1,4 +1,4 @@
-# PredictWind:Forecasting-Wind-Turbine-Failures-for-Cost-Effective-Maintenance
+# PredictWind: Forecasting for Predictive Maintenance of Turbines
 With a growing focus on reducing the environmental impact of energy production, renewable energy sources are becoming more integral to the global energy mix. Wind energy, in particular, has become one of the most advanced renewable technologies worldwide. This project harnesses machine learning to predict failures in wind turbines, enabling more efficient maintenance and lowering operational costs.
 
 Project Objective
